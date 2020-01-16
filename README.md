@@ -2,7 +2,9 @@
 A generic python maze solver.
 
 Not very efficient but simple png image based maze solver.
-Mazes where created with Daedalus (http://www.astrolog.org/labyrnth/daedalus.htm).
+
+MazeSolver.py solves the maze in the background.
+MazeSolverView.py solves the maze with a real time output.(slower)
 
 Mazes need to have:
   black pixels as walls
@@ -10,3 +12,5 @@ Mazes need to have:
   black surrounding wall
   one white pixel on the top as start
   one white pixel on the bottom as end.
+
+Mazes where created with Daedalus (http://www.astrolog.org/labyrnth/daedalus.htm).
